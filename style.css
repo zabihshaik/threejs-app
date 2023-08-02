@@ -1,12 +1,5 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 22rem; 
@@ -16,9 +9,8 @@ canvas {
   font-style: normal;
 }
 
-
 main {
-  width: 100vw;
+  width: 100dvw;
   color: white;
   z-index: 99;
   position: absolute;
@@ -42,40 +34,42 @@ canvas {
   left: 0;
 }
 
-
-
-  header {
+header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
     font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
-  }
+}
 
-  section {
+section {
     grid-column: 2 / 8;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
-  }
+}
 
-  blockquote {
+blockquote {
     margin: 0;
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
-  }
+}
 
-  blockquote p {
+blockquote p {
     color: black;
     background-color: white;
     font-size: 4rem;
     display: inline;
     line-height: 1;
-  }
+}
 
-  .left {
+.right {
     grid-column: 6 / 12;
-  }
+}
+
+a {
+  text-decoration: none;
+}
